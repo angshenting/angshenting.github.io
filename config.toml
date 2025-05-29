@@ -1,0 +1,10 @@
+baseURL = "https://shenting.org/"
+languageCode = "en-us"
+title = "Shen Ting Ang"
+theme = "PaperMod"
+
+[params]
+  author = "Shen Ting"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  homeInfoParams = { Title = "Welcome!", Content = "This is my new Hugo site powered by PaperMod." }
