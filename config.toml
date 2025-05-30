@@ -11,3 +11,19 @@ theme = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/post/"
+  weight = 2
+
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/angshenting/"
+  weight = 3
+
