@@ -7,4 +7,7 @@ theme = "PaperMod"
   author = "Shen Ting"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
-  homeInfoParams = { Title = "Welcome!", Content = "This is my new Hugo site powered by PaperMod." }
+  homeInfoParams = { Title = "Welcome!", Content = "Welcome to my website. I write about data science, bridge, and technology." }
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
