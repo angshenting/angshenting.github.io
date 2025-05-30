@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My New Site"
 date: 2025-05-20
-tags: ["announcement", "blog"]
+tags: ["announcement"]
 categories: ["general"]
 draft: false
 ---

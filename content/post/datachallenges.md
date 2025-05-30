@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My New Site"
+title: "DataScience SG Talk: Data Challenges"
 date: 2024-04-25
 tags: ["data science"]
 categories: ["talks"]

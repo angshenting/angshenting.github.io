@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My New Site"
+title: "The Great Gatsby: 100 Years Later"
 date: 2025-04-10
 tags: ["misc"]
 categories: ["general"]
