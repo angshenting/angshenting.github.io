@@ -12,11 +12,10 @@ theme = "PaperMod"
   disableScrollToTop = true
 
   # Homepage intro (PaperMod style)
-  homeInfoParams = { 
-    Title = "Welcome!", 
-    Content = "Welcome to my website. I write about data science, bridge, and technology." 
-  }
-
+[params.homeInfoParams]
+  Title = "Welcome!"
+  Content = "Welcome to my website. I write about data science, bridge, and technology."
+  
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
