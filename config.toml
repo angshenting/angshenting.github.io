@@ -7,10 +7,15 @@ theme = "PaperMod"
   author = "Shen Ting"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
-  homeInfoParams = { Title = "Welcome!", Content = "Welcome to my website. I write about data science, bridge, and technology." }
+  ShowEdit = false
   disableSpecial1stPost = true
   disableScrollToTop = true
-  ShowEdit = false
+
+  # Homepage intro (PaperMod style)
+  homeInfoParams = { 
+    Title = "Welcome!", 
+    Content = "Welcome to my website. I write about data science, bridge, and technology." 
+  }
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -29,4 +34,3 @@ theme = "PaperMod"
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/angshenting/"
   weight = 3
-
