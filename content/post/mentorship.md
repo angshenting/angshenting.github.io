@@ -1,3 +1,11 @@
+---
+title: "On Mentorship"
+date: 2023-10-03
+tags: ["mentorship", "leadership"]
+categories: ["general"]
+draft: false
+---
+
 [Koo writes:](https://koopingshung.com/blog/education-vs-lifelong-learning/)
 "In lifelong learning, we are expecting the participants to be able to apply what is being taught into their work. Applications to generate value is the key objectives for lifelong learning programmes. Assessment can conducted if it is on the application phase but unnecessary (but good to have) if it is to check if the participants have gained the knowledge needed from the course. In fact, mentoring might be more important as it guides participants, with an unorganized knowledge base as mentioned above, to start organizing the knowledge base and see where the applications of the knowledge are at the same time. However, this is difficult again due to cost issue. Yes, current experienced staff can be the mentor but they are already swarmed with their own work. Hiring external mentor could be a solution but again, opportunity cost for the freelancer can be high if the company only require an hour from the external mentor for guidance."
 
