@@ -10,7 +10,6 @@ theme = "PaperMod"
   homeInfoParams = { Title = "Welcome!", Content = "Welcome to my website. I write about data science, bridge, and technology." }
   disableSpecial1stPost = true
   disableScrollToTop = true
-  ShowReadingTime = true
   ShowEdit = false
 
 [outputs]
