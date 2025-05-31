@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Node on Shen Ting Ang</title><link>https://shenting.org/tags/node/</link><description>Recent content in Node on Shen Ting Ang</description><generator>Hugo -- 0.147.6</generator><language>en-us</language><lastBuildDate>Fri, 20 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://shenting.org/tags/node/index.xml" rel="self" type="application/rss+xml"/><item><title>ETH Node Part 3: Block Sync</title><link>https://shenting.org/post/eth_node_3/</link><pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate><guid>https://shenting.org/post/eth_node_3/</guid><description>&lt;blockquote>
+&lt;p>eth.syncing&lt;/p>
+&lt;p>{
+currentBlock: 13060865,
+highestBlock: 13060940,
+knownStates: 142012464,
+pulledStates: 141992942,
+startingBlock: 0
+}&lt;/p>&lt;/blockquote>
+&lt;p>After slightly over 38 hours, the blocks are sync-ed as of 4pm!&lt;/p>
+&lt;p>I actually started over at 2am the previous day because I accidentally turned off power to the Pi and the ancient got corrupted :(&lt;/p></description></item><item><title>ETH Node Part 2: 64 Bit Ubuntu</title><link>https://shenting.org/post/eth_node_2/</link><pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate><guid>https://shenting.org/post/eth_node_2/</guid><description>&lt;h1 id="out-of-memory">Out of memory&lt;/h1>
+&lt;p>So I left the node running for a few days and noticed the sync rate dropping significantly. Upon watching the log print for a while, I saw the following:&lt;/p>
+&lt;blockquote>
+&lt;p>Aug 13 01:51:22 geth geth[12749]: runtime: out of memory: cannot allocate 4194304-byte block (2422145024 in use)&lt;/p>
+&lt;p>Aug 13 01:51:22 geth geth[12749]: fatal error: out of memory&lt;/p>
+&lt;p>Aug 13 01:51:22 geth geth[12749]: goroutine 16172 [running]:&lt;/p>
+&lt;p>Aug 13 01:51:22 geth geth[12749]: runtime.throw(0xce93c8, 0xd)&lt;/p></description></item><item><title>ETH Node Part 1: Raspberry Pi 4</title><link>https://shenting.org/post/eth_node_1/</link><pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate><guid>https://shenting.org/post/eth_node_1/</guid><description>&lt;p>I’ve been meaning to look into running an ETH node for a while, and Roman helpfully sent me &lt;a href="https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31">this guide&lt;/a>, which helpfully links to &lt;a href="https://kauri.io/#communities/Ethereum%20Node%20Runners/running-an-ethereum-full-node-on-a-raspberrypi-4-/">another guide on running an ETH node on a Raspberry Pi 4&lt;/a>. There was some scepticism if a Raspberry Pi 4 is actually powerful enough, but the hardware would cost me just $300 for both the Pi and an external 500GB SSD, and it’s still usable for other projects even if this doesn’t work out.&lt;/p></description></item></channel></rss>
