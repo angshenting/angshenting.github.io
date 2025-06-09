@@ -20,6 +20,11 @@ theme = "PaperMod"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [[menu.main]]
   name = "About"
   url = "/about/"
