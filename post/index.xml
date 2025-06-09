@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Shen Ting Ang</title><link>https://shenting.org/post/</link><description>Recent content in Posts on Shen Ting Ang</description><generator>Hugo -- 0.147.6</generator><language>en-us</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://shenting.org/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Math Test Post</title><link>https://shenting.org/post/math_test/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://shenting.org/post/math_test/</guid><description>&lt;h2 id="inline-math">Inline Math&lt;/h2>
-&lt;p>This is inline math: $E = mc^2$.&lt;/p>
-&lt;h2 id="block-math">Block Math&lt;/h2>
-&lt;p>Here is a block equation:&lt;/p>
-&lt;p>$$
-\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
-$$&lt;/p>
-&lt;p>Another example:&lt;/p>
-&lt;p>$$
-a^2 + b^2 = c^2
-$$&lt;/p></description></item><item><title>SCBA Ratings - Now Live</title><link>https://shenting.org/post/scba_rating_live/</link><pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate><guid>https://shenting.org/post/scba_rating_live/</guid><description>&lt;p>&lt;a href="https://dev1.scba.org.sg/ratings">The SCBA Ratings page is live!&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Shen Ting Ang</title><link>https://shenting.org/post/</link><description>Recent content in Posts on Shen Ting Ang</description><generator>Hugo -- 0.147.6</generator><language>en-us</language><lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://shenting.org/post/index.xml" rel="self" type="application/rss+xml"/><item><title>SCBA Ratings - Now Live</title><link>https://shenting.org/post/scba_rating_live/</link><pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate><guid>https://shenting.org/post/scba_rating_live/</guid><description>&lt;p>&lt;a href="https://dev1.scba.org.sg/ratings">The SCBA Ratings page is live!&lt;/a>&lt;/p>
 &lt;p>Thus far, only matchpoint pairs games are rated, from 2023 onwards. Most of the development was done in a week with the help of ChatGPT and Claude.&lt;/p>
 &lt;h2 id="why-2023">Why 2023?&lt;/h2>
 &lt;p>Given that SCBA re-opened in May 2022 after COVID-19 restrictions were eased, 2023 seems like a good starting point when most people returned to weekly games.&lt;/p>
