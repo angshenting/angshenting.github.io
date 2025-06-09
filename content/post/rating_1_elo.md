@@ -37,9 +37,10 @@ The main idea of the rating system is that of the expected score, which is the s
 The expected score is simply a logistic function, for example the expected score of Player A and Player B is given below, where R are the respective ratings:
 
 $$
-E_A = \frac{1}{1 + 10^{\frac{R_B - R_A}{400}}} \\
-
-E_B = \frac{1}{1 + 10^{\frac{R_A - R_B}{400}}}
+\\ E_A = \frac{1}{1 + 10^{\frac{R_B - R_A}{400}}} 
+$$
+$$
+\\ E_B = \frac{1}{1 + 10^{\frac{R_A - R_B}{400}}}
 $$
 
 Note that the two equations are symmetrical.
