@@ -4,6 +4,7 @@ date: 2020-08-14
 tags: ["ratings"]
 categories: ["bridge"]
 draft: false
+math: true
 ---
 
 # Introduction
