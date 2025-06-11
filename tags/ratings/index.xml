@@ -3,7 +3,23 @@
 &lt;h2 id="why-2023">Why 2023?&lt;/h2>
 &lt;p>Given that SCBA re-opened in May 2022 after COVID-19 restrictions were eased, 2023 seems like a good starting point when most people returned to weekly games.&lt;/p>
 &lt;h2 id="how-is-this-done">How is this done?&lt;/h2>
-&lt;p>Ratings are implemented using &lt;a href="https://openskill.me/en/stable/">OpenSkill&lt;/a>, using Plackett-Luce based on rankings.&lt;/p></description></item><item><title>Rating Systems (2): Glicko-2</title><link>https://shenting.org/post/rating_2_glicko/</link><pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate><guid>https://shenting.org/post/rating_2_glicko/</guid><description>&lt;h1 id="point-vs-interval-estimates">Point vs Interval Estimates&lt;/h1>
+&lt;p>Ratings are implemented using &lt;a href="https://openskill.me/en/stable/">OpenSkill&lt;/a>, using Plackett-Luce based on rankings.&lt;/p></description></item><item><title>Rating Systems (3): TrueSkill - Multiplayer Ratings</title><link>https://shenting.org/post/rating_3_trueskill/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>https://shenting.org/post/rating_3_trueskill/</guid><description>&lt;h1 id="teams-of-varying-sizes">Teams of Varying Sizes&lt;/h1>
+&lt;p>TrueSkill was first developed by Microsoft Research for use in multiplayer team games, like Halo. It is a Bayesian ranking system which is suited for:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Teams&lt;/strong> of varying sizes&lt;/li>
+&lt;li>&lt;strong>Multiplayer&lt;/strong> games&lt;/li>
+&lt;li>&lt;strong>Dynamic updating&lt;/strong> after each match&lt;/li>
+&lt;/ul>
+&lt;h1 id="mathematics-of-trueskill">Mathematics of TrueSkill&lt;/h1>
+&lt;p>Each player $i$ is modeled with a skill represented by a normal distribution:&lt;/p>
+&lt;p>$$
+\theta_i \sim \mathcal{N}(\mu_i, \sigma_i^2)
+$$&lt;/p>
+&lt;ul>
+&lt;li>$\mu_i$ = current estimate of player skill (mean)&lt;/li>
+&lt;li>$\sigma_i = uncertainty about that skill (standard deviation)&lt;/li>
+&lt;/ul>
+&lt;p>At the start, players are typically initialized with:&lt;/p></description></item><item><title>Rating Systems (2): Glicko-2</title><link>https://shenting.org/post/rating_2_glicko/</link><pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate><guid>https://shenting.org/post/rating_2_glicko/</guid><description>&lt;h1 id="point-vs-interval-estimates">Point vs Interval Estimates&lt;/h1>
 &lt;p>One issue with the Elo system as previously raised is how it doesn’t give any information about the uncertainty of the estimate. The Glicko system is an attempt to encompass this information additionally.&lt;/p>
 &lt;p>Think about this: If a player has played 3 games: win against a player rated 1500, lose against a player rated 1450 and win against a player rated 1200, how confident are we in the derived rating? On the other hand, if a player has played 50 games, and has won 35 games against opponents rated 2000 and below, drew 5 games against opponents rated 2000-2050 and lost the remaining 10 games versus opponents rated above 2050, we can be fairly certain that his rating is somewhere between 2000-2050.&lt;/p></description></item><item><title>Rating Systems (1): Elo and its limitations</title><link>https://shenting.org/post/rating_1_elo/</link><pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate><guid>https://shenting.org/post/rating_1_elo/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
 &lt;p>This is going to be a new series on rating systems, which is a vastly underrated (pun intended) area of statistics and data science. Rating systems has actually been a part of my life (and probably yours), from early days in chess and then games with matchmaking like CS:GO and Valorant, to now thinking if contract bridge should also have one.&lt;/p>
