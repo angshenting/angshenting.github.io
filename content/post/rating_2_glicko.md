@@ -20,19 +20,14 @@ Decide on two system parameters - volatility and constraint constant. Initialize
 
 Convert rating and RD to Glicko scale. Normalize rating to 0, and divide both by 173.7178. We will consider a rating period where a player meets a number of opponents with respective ratings and RDs.
 
-Compute v, which is an estimated variance of the player’s rating based on game outcomes only.
+- Compute $v$, which is an estimated variance of the player’s rating based on game outcomes only.
+- Compute $\delta$, which is estimated improvement in rating by comparing pre-period rating vs performance rating based only on game outcomes.
+- Determine the new value of volatility. This step requires numerical iterative methods.
+- Update the rating deviation to the new pre-rating period value.
+- Update the rating and RD.
+- Convert back to original rating scale (i.e. normalised to 1500)
 
-Compute delta, which is estimated improvement in rating by comparing pre-period rating vs performance rating based only on game outcomes.
-
-Determine the new value of volatility. This step requires numerical iterative methods.
-
-Update the rating deviation to the new pre-rating period value .
-
-Update the rating and RD.
-
-Convert back to original rating scale (i.e. normalised to 1500)
-
-If a player does not play during a period, then only run step 6, increasing the RD according to the volatility constant.
+If a player does not play during a period, then only increase the RD according to the volatility constant.
 
 # Advantages
 Measure of volatility/uncertainty
