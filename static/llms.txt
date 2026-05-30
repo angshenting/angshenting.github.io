@@ -1,0 +1,49 @@
+# Shen Ting Ang
+
+> Personal website of Shen Ting Ang, Senior Consultant, Data Scientist at Thoughtworks Singapore. Writes about data science, AI, bridge, and technology.
+
+## About
+
+- [About Shen Ting](https://shenting.org/about/): Senior Consultant, Data Scientist at Thoughtworks Singapore. Background in data science, Masters in Computer Science from UC San Diego, BSc/Masters in MORSE from the University of Warwick. Previously Competition Secretary of the Singapore Contract Bridge Association; APBF International Tournament Director since 2024.
+
+## AI and Machine Learning
+
+- [Good Governance Is Good Design](https://shenting.org/post/ai_governance/): On AI governance frameworks — ISO 42001 and NIST AI RMF — and how good governance is fundamentally a design problem.
+- [A Year of Coding with AI](https://shenting.org/post/ai_coding_retrospective/): Retrospective on a year of AI-assisted software development — what changed, what didn't, and what it means for the craft.
+- [5 Hazards Attitudes of Adopting AI](https://shenting.org/post/five_hazards/): Five cognitive hazard attitudes that organisations bring to AI adoption, adapted from aviation psychology.
+
+## Data Science
+
+- [Organizing Data Science Projects](https://shenting.org/post/organizing_ds_projects/): Practical structure for keeping data science projects maintainable and reproducible.
+- [Mandatory Reading on Names](https://shenting.org/post/names/): Why names are harder than they look — and what that means for data systems.
+- [Why you probably shouldn't outsource data work](https://shenting.org/post/outsource_data_work/): The case for keeping data work in-house and why outsourcing it often backfires.
+- [Visualizations at Meetings](https://shenting.org/post/visualizations/): How to use data visualisations effectively in meetings, not just as decoration.
+- [You Should not be Using Anaconda](https://shenting.org/post/anaconda/): Why Anaconda is the wrong default for Python environments and what to use instead.
+- [DataScience SG Talk: Data Challenges](https://shenting.org/post/datachallenges/): Talk given at DataScience SG on common data challenges faced by practitioners.
+- [DataScience SG Talk on Sample Count and Podcast](https://shenting.org/post/podcast_dssg/): Companion post to a podcast episode on sample counts and data reliability.
+- [How Much Should You Trust the Sample Count? (Part 1)](https://shenting.org/post/sample_count_1/): Statistical intuition on when sample counts are and aren't trustworthy.
+- [How Much Should You Trust the Sample Count? (Part 2)](https://shenting.org/post/sample_count_2/): Continuation of the sample count series.
+- [MRT Challenge](https://shenting.org/post/mrt_challenge/): A data challenge built around Singapore's MRT transit network.
+- [RPA Career Talk](https://shenting.org/post/rpa_career_talk/): Notes from a career talk on robotic process automation and data science careers.
+
+## Rating Systems
+
+- [Rating Systems (1): Elo and its limitations](https://shenting.org/post/rating_1_elo/): Introduction to Elo ratings — how they work and where they fall short.
+- [Rating Systems (2): Glicko-2](https://shenting.org/post/rating_2_glicko/): Glicko-2 as a solution to Elo's limitations, with rating deviation and volatility.
+- [Rating Systems (3): TrueSkill — Multiplayer Ratings](https://shenting.org/post/rating_3_trueskill/): TrueSkill and Bayesian approaches to rating players in multiplayer settings.
+- [SCBA Ratings — Now Live](https://shenting.org/post/scba_rating_live/): Announcement of the Singapore Contract Bridge Association live ratings system.
+
+## Ethereum and Web3
+
+- [ETH Node Part 1: Raspberry Pi 4](https://shenting.org/post/eth_node_1/): Setting up an Ethereum node on a Raspberry Pi 4.
+- [ETH Node Part 2: 64 Bit Ubuntu](https://shenting.org/post/eth_node_2/): Moving the ETH node to 64-bit Ubuntu for better compatibility.
+- [ETH Node Part 3: Block Sync](https://shenting.org/post/eth_node_3/): Getting the Ethereum node fully synced to the chain.
+
+## Personal and Miscellaneous
+
+- [2025 in Review](https://shenting.org/post/2025_in_review/): Personal year-in-review for 2025.
+- [The worst day of my life...](https://shenting.org/post/worst_day_of_my_life/): A personal essay.
+- [Fracture](https://shenting.org/post/fracture/): A personal essay.
+- [The Great Gatsby: 100 Years Later](https://shenting.org/post/thegreatgatsby/): Reflections on re-reading The Great Gatsby a century after publication.
+- [P.I.O.S.E.E](https://shenting.org/post/piosee/): On the PIOSEE problem-solving framework from aviation, applied broadly.
+- [On Mentorship](https://shenting.org/post/mentorship/): Thoughts on what good mentorship looks like and what it isn't.
